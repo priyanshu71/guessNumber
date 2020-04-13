@@ -1,0 +1,52 @@
+body {
+    background-image: radial-gradient(orange,pink);
+   
+}
+
+#heading {
+    display: block;
+    position: relative;
+    top: 100px;
+    width: 50%;
+    margin: auto;
+    padding-left: 20rem;
+}
+
+.descriptions , .descriptionlabel {
+    display: block;
+    position: relative;
+    top:100px;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 18px;
+}
+
+p.author {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    right: 0;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+@media (max-width: 650px)
+{
+    #heading {
+       width: 90%;
+        padding-left: 0;
+        margin:inherit;
+        padding-left: 3em;
+    }
+    
+    .descriptions {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .descriptionlabel{
+        margin:12px;
+        width: 90%;
+    }
+}
